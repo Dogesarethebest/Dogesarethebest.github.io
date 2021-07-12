@@ -1,0 +1,24 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: centre;
+  justify-content: centre;
+}
+
+img  height: 250px;
+  margin: 10px;
+  box-shadow: 4px 7px 45px -10px rgba(0,0,0,0.4);
+  border-radius: 7px;
+  transition: transform .2s;
+}{
+ 
+
+img:hover {
+  transform:scale(1.2);
+}
+
+.h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+

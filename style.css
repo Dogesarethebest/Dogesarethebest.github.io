@@ -69,13 +69,19 @@ body, html {
   background-size: cover;
 }
 
-
 li{
   list-style-type: none;
+  margin: 2vw 0;
+  
+  font-size: 3vh;
 }
 
 a{
   text-decoration: none;
+  color: black;
+  font-family: monospace;
+
+  padding: 2vw;
 }
 
 nav{
@@ -84,29 +90,50 @@ nav{
 }
 
 ul{
+  display: block;
   margin: 0;
   padding: 0;
+  
+  display: flex;  
 }
 
 body{
   margin: 0;
 }
 
-li{
-  list-style-type: none;  
-  margin: 0 2vw;
-  /* our font-size will be 3% of the height of the viewport */
-  font-size: 3vh;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-  padding: 2vw;
-  font-family: monospace;
+button{
+  display: none;
 }
 
 a:hover{
   background-color: #436b4e;
 }
+
+@media only screen and (max-width: 500px) {
+  ul{
+    flex-direction: column;
+  }
+  
+  a{
+    display: block;
+  }
+  
+  li{
+    margin: 0;
+  }
+  
+  button{
+    display: block;
+    
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #AFE0FF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    align-self: flex-start;
+  }
+}
+
 

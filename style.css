@@ -128,7 +128,8 @@ a:hover{
     padding: 2vw;
     font-size: 3vh;
     background-color: #AFE0FF;
-    border: none;
+    border: limegreen;
+    border-color: #91ffaf;
     outline: none;
     cursor: pointer;
     

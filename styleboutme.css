@@ -140,6 +140,7 @@ a:hover{
 
 h1 {
   font-family: 'Barlow Condensed', sans-serif;
+  background: transparent;
   }
 h2 {
   font-family: 'Comfortaa', cursive;
